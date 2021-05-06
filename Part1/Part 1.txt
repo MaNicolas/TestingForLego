@@ -1,0 +1,41 @@
+Part 1: Exploratory testing - Booking a stay in a hotel
+Here are my 3 scenarios and my findings:
+
+1) Testing a successful booking
+● Exploratory target:
+Successfully booking a room
+
+● Does the site behave as you would expect?
+No, user is unable to create an account. The only working option is "Booking as a guest".
+Upon confirmation, no email is sent to the user.
+Booking flow should be revamped. User should first create an account and confirm it using a link received by a mail.
+
+Beside, once in the checkout page, the deposit in not taken into account in the total price.
+Also the total amount is incorrect, it does not take into account the number of night spent. A $200/night stay with 10 nights returns a $210 total amount.
+Finally, the check-in and check -out dates are not saved. I search for a stay from 20 to 31st of May and end up with a stay from 20 to 22nd of May.
+
+
+2) Booking while missing information signed in
+● Exploratory target:
+Testing to book a room with missing information
+
+● Does the site behave as you would expect?
+Firstname, lastname, adress etc... are not marked as required.
+When leaving one of these fields empty, the user gets no error message, no indication.
+Upon clicking on the "Confirm booking" button, again, there is no error message being displayed.
+
+
+3) Booking with incorrect email address
+● Exploratory target:
+Going through the booking process with an incorrect email address
+
+● Does the site behave as you would expect?
+User needs to enter his email address and then confirm it. But if the 2 email address do not match, user cannot proceed to booking (which makes sense).
+But again, upon clicking on "Confirm this booking", nothing happens, just like in scenario 2.
+No error message, nothing to indicate what is wrong to the user.
+
+
+
+● Which area of the website or testing would you explore first and why?
+The first area to check would be the cart/checkout page. All information need to be correct and detailed, since it has a real impact on the reliability of the product and the trust it builds with the user.
+I'd like to mention that I found many bugs (or bad UX) while searching for an hotel, but I focused my efforts on actually booking a room.
