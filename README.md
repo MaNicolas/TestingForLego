@@ -1,5 +1,6 @@
 # TestingForLego
 Automation testing for Lego.com using Selenium and Java
+
 Hi,
 
 Here's a test I created using Selenium webdriver and Java. I am using a Maven project structure with TestNG plugin to run my tests. The design pattern is Page Object Model.
