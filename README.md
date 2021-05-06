@@ -13,9 +13,8 @@ In order to run the test, you'll need the following setup:
 - Chrome browser version 90
 - Firefox browser version 87.0 (64-bit)
 - Eclipse IDE
-You will find 1 test suite XML files under "src\test\resources\TestSuites":
 
-AllTests.xml (which basically run my test on Chrome and Firefox in parallel)
+You will find 1 test suite XML files under "src\test\resources\TestSuites" named 'AllTests.xml' (which basically run my test on Chrome and Firefox in parallel)
 
 To run the tests:
 
