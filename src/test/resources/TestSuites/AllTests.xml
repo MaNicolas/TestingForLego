@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests.xml" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="AutomationTestUsingChrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.lego.automationTest.AutomationTest" />
+		</classes>
+	</test>
+	
+	<test name="AutomationTestUsingFirefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.lego.automationTest.AutomationTest" />
+		</classes>
+	</test>
+
+</suite>

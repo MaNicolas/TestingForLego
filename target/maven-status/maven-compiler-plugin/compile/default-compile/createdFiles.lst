@@ -1,0 +1,6 @@
+com\lego\pages\HeaderPageObject.class
+com\lego\base\BaseTest.class
+com\lego\base\TestUtilities.class
+com\lego\pages\BasePageObject.class
+com\lego\base\BrowserDriverFactory.class
+com\lego\pages\WelcomePageObject.class
