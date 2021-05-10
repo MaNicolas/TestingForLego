@@ -1,5 +1,6 @@
 package com.lego.base;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,7 +19,8 @@ public class BaseTest {
 
 		BrowserDriverFactory factory = new BrowserDriverFactory(browser);
 		driver = factory.createDriver();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		driver.manage().window().setSize(new Dimension(1920,1080));
 	}
 
 	@AfterMethod(alwaysRun = true)
