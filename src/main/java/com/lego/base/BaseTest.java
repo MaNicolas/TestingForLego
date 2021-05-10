@@ -23,7 +23,7 @@ public class BaseTest {
 		//driver.manage().window().maximize();
 		driver.manage().window().setSize(new Dimension(1280,1024));
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
+		options.addArguments("--headless");
 	}
 
 	@AfterMethod(alwaysRun = true)
