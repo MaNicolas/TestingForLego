@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Create driver: firefox]]>
-    </line>
-    <line>
       <![CDATA[Create driver: chrome]]>
     </line>
     <line>
+      <![CDATA[Create driver: firefox]]>
+    </line>
+    <line>
       <![CDATA[Opening page: https://www.lego.com/es-es]]>
     </line>
     <line>
@@ -38,31 +38,13 @@
       <![CDATA[Number of result is: 2 keychains]]>
     </line>
     <line>
-      <![CDATA[Selecting one of the keychains available]]>
-    </line>
-    <line>
       <![CDATA[Filtering by age 4+]]>
     </line>
     <line>
-      <![CDATA[Survey was not requested]]>
-    </line>
-    <line>
-      <![CDATA[Item's name is Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
-    </line>
-    <line>
-      <![CDATA[Item's price is 7.19]]>
-    </line>
-    <line>
-      <![CDATA[Adding item into the cart]]>
-    </line>
-    <line>
-      <![CDATA[Going to cart]]>
+      <![CDATA[Selecting one of the keychains available]]>
     </line>
     <line>
       <![CDATA[Filtering by keychain from 0-20€]]>
-    </line>
-    <line>
-      <![CDATA[Proceeding to checkout]]>
     </line>
     <line>
       <![CDATA[There are 2 keychains available.]]>
@@ -74,25 +56,13 @@
       <![CDATA[Selecting one of the keychains available]]>
     </line>
     <line>
-      <![CDATA[Item's name is: Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
-    </line>
-    <line>
-      <![CDATA[There is 1 item in the cart.]]>
-    </line>
-    <line>
-      <![CDATA[Shipping cost is: 5.95]]>
-    </line>
-    <line>
-      <![CDATA[Total price is: 13.14]]>
-    </line>
-    <line>
       <![CDATA[Survey was not requested]]>
     </line>
     <line>
-      <![CDATA[Item's name is Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
+      <![CDATA[Item's name is Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
     </line>
     <line>
-      <![CDATA[Item's price is 7.19]]>
+      <![CDATA[Item's price is 9.09]]>
     </line>
     <line>
       <![CDATA[Adding item into the cart]]>
@@ -104,7 +74,16 @@
       <![CDATA[Proceeding to checkout]]>
     </line>
     <line>
-      <![CDATA[Item's name is: Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
+      <![CDATA[Survey was not requested]]>
+    </line>
+    <line>
+      <![CDATA[Item's name is: Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
+    </line>
+    <line>
+      <![CDATA[Item's name is Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
+    </line>
+    <line>
+      <![CDATA[Item's price is 9.09]]>
     </line>
     <line>
       <![CDATA[There is 1 item in the cart.]]>
@@ -113,15 +92,36 @@
       <![CDATA[Shipping cost is: 5.95]]>
     </line>
     <line>
-      <![CDATA[Total price is: 13.14]]>
+      <![CDATA[Adding item into the cart]]>
+    </line>
+    <line>
+      <![CDATA[Total price is: 15.04]]>
+    </line>
+    <line>
+      <![CDATA[Going to cart]]>
+    </line>
+    <line>
+      <![CDATA[Proceeding to checkout]]>
+    </line>
+    <line>
+      <![CDATA[Item's name is: Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
+    </line>
+    <line>
+      <![CDATA[There is 1 item in the cart.]]>
+    </line>
+    <line>
+      <![CDATA[Shipping cost is: 5.95]]>
+    </line>
+    <line>
+      <![CDATA[Total price is: 15.04]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-05-10T16:28:56 CEST" name="AllTests.xml" finished-at="2021-05-10T16:29:24 CEST" duration-ms="28201">
+  <suite started-at="2021-05-10T18:03:31 CEST" name="AllTests.xml" finished-at="2021-05-10T18:03:55 CEST" duration-ms="24266">
     <groups>
     </groups>
-    <test started-at="2021-05-10T16:28:56 CEST" name="AutomationTestUsingChrome" finished-at="2021-05-10T16:29:17 CEST" duration-ms="21200">
+    <test started-at="2021-05-10T18:03:31 CEST" name="AutomationTestUsingChrome" finished-at="2021-05-10T18:03:51 CEST" duration-ms="20341">
       <class name="com.lego.automationTest.AutomationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.lego.automationTest.AutomationTest@a3d8174]" started-at="2021-05-10T16:28:56 CEST" name="setup" finished-at="2021-05-10T16:28:58 CEST" duration-ms="1930" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.lego.automationTest.AutomationTest@a3d8174]" started-at="2021-05-10T18:03:31 CEST" name="setup" finished-at="2021-05-10T18:03:33 CEST" duration-ms="1919" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="purchaseItem()[pri:0, instance:com.lego.automationTest.AutomationTest@a3d8174]" started-at="2021-05-10T16:28:58 CEST" name="purchaseItem" finished-at="2021-05-10T16:29:17 CEST" duration-ms="18538" status="PASS">
+        <test-method signature="purchaseItem()[pri:0, instance:com.lego.automationTest.AutomationTest@a3d8174]" started-at="2021-05-10T18:03:33 CEST" name="purchaseItem" finished-at="2021-05-10T18:03:50 CEST" duration-ms="17692" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening page: https://www.lego.com/es-es]]>
@@ -165,10 +165,10 @@
               <![CDATA[Survey was not requested]]>
             </line>
             <line>
-              <![CDATA[Item's name is Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
+              <![CDATA[Item's name is Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
             </line>
             <line>
-              <![CDATA[Item's price is 7.19]]>
+              <![CDATA[Item's price is 9.09]]>
             </line>
             <line>
               <![CDATA[Adding item into the cart]]>
@@ -180,7 +180,7 @@
               <![CDATA[Proceeding to checkout]]>
             </line>
             <line>
-              <![CDATA[Item's name is: Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
+              <![CDATA[Item's name is: Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
             </line>
             <line>
               <![CDATA[There is 1 item in the cart.]]>
@@ -189,19 +189,19 @@
               <![CDATA[Shipping cost is: 5.95]]>
             </line>
             <line>
-              <![CDATA[Total price is: 13.14]]>
+              <![CDATA[Total price is: 15.04]]>
             </line>
           </reporter-output>
         </test-method> <!-- purchaseItem -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lego.automationTest.AutomationTest@a3d8174]" started-at="2021-05-10T16:29:17 CEST" name="tearDown" finished-at="2021-05-10T16:29:17 CEST" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lego.automationTest.AutomationTest@a3d8174]" started-at="2021-05-10T18:03:50 CEST" name="tearDown" finished-at="2021-05-10T18:03:51 CEST" duration-ms="672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.lego.automationTest.AutomationTest -->
     </test> <!-- AutomationTestUsingChrome -->
-    <test started-at="2021-05-10T16:28:56 CEST" name="AutomationTestUsingFirefox" finished-at="2021-05-10T16:29:24 CEST" duration-ms="28201">
+    <test started-at="2021-05-10T18:03:31 CEST" name="AutomationTestUsingFirefox" finished-at="2021-05-10T18:03:55 CEST" duration-ms="24266">
       <class name="com.lego.automationTest.AutomationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.lego.automationTest.AutomationTest@48f278eb]" started-at="2021-05-10T16:28:56 CEST" name="setup" finished-at="2021-05-10T16:29:02 CEST" duration-ms="5541" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.lego.automationTest.AutomationTest@48f278eb]" started-at="2021-05-10T18:03:31 CEST" name="setup" finished-at="2021-05-10T18:03:36 CEST" duration-ms="5538" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="purchaseItem()[pri:0, instance:com.lego.automationTest.AutomationTest@48f278eb]" started-at="2021-05-10T16:29:02 CEST" name="purchaseItem" finished-at="2021-05-10T16:29:23 CEST" duration-ms="21618" status="PASS">
+        <test-method signature="purchaseItem()[pri:0, instance:com.lego.automationTest.AutomationTest@48f278eb]" started-at="2021-05-10T18:03:36 CEST" name="purchaseItem" finished-at="2021-05-10T18:03:54 CEST" duration-ms="17854" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening page: https://www.lego.com/es-es]]>
@@ -245,10 +245,10 @@
               <![CDATA[Survey was not requested]]>
             </line>
             <line>
-              <![CDATA[Item's name is Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
+              <![CDATA[Item's name is Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
             </line>
             <line>
-              <![CDATA[Item's price is 7.19]]>
+              <![CDATA[Item's price is 9.09]]>
             </line>
             <line>
               <![CDATA[Adding item into the cart]]>
@@ -260,7 +260,7 @@
               <![CDATA[Proceeding to checkout]]>
             </line>
             <line>
-              <![CDATA[Item's name is: Llavero con luz de ladrillo 1x2 LEGO® (Rojo)]]>
+              <![CDATA[Item's name is: Llavero con luz de Stormtrooper™ LEGO® Star Wars™]]>
             </line>
             <line>
               <![CDATA[There is 1 item in the cart.]]>
@@ -269,11 +269,11 @@
               <![CDATA[Shipping cost is: 5.95]]>
             </line>
             <line>
-              <![CDATA[Total price is: 13.14]]>
+              <![CDATA[Total price is: 15.04]]>
             </line>
           </reporter-output>
         </test-method> <!-- purchaseItem -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lego.automationTest.AutomationTest@48f278eb]" started-at="2021-05-10T16:29:23 CEST" name="tearDown" finished-at="2021-05-10T16:29:24 CEST" duration-ms="992" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lego.automationTest.AutomationTest@48f278eb]" started-at="2021-05-10T18:03:54 CEST" name="tearDown" finished-at="2021-05-10T18:03:55 CEST" duration-ms="821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
