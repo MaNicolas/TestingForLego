@@ -21,7 +21,7 @@ public class BaseTest {
 		BrowserDriverFactory factory = new BrowserDriverFactory(browser);
 		driver = factory.createDriver();
 		//driver.manage().window().maximize();
-		driver.manage().window().setSize(new Dimension(1280,1024));
+		driver.manage().window().setSize(new Dimension(1920,1080));
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 	}
