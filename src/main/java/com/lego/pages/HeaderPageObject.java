@@ -9,7 +9,7 @@ public class HeaderPageObject extends BasePageObject {
 	// Locators
 	private By cartLocator = By.xpath("//a[@data-test='util-bar-cart']");
 	
-	private By filterLocator = By.xpath("(//span[@class='MainBarstyles__MenuItemLabel-qk6y7u-9 gFyTkD'])[2]");
+	private By filterLocator = By.xpath("//button[@data-analytics-title='shop-by']");
 	private By ageLocator = By.xpath("//button[@data-analytics-title='age']");
 	private By ageFourAndPlusLocator = By.xpath("//span[text()='4+']");
 	
