@@ -1,5 +1,6 @@
 package com.lego.base;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
@@ -20,6 +21,7 @@ public class BaseTest {
 		BrowserDriverFactory factory = new BrowserDriverFactory(browser);
 		driver = factory.createDriver();
 		//driver.manage().window().maximize();
+		driver.manage().window().setSize(new Dimension(1280,1024));
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
 	}
