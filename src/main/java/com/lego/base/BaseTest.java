@@ -20,8 +20,9 @@ public class BaseTest {
 
 		BrowserDriverFactory factory = new BrowserDriverFactory(browser);
 		driver = factory.createDriver();
-		//driver.manage().window().maximize();
+		
 		driver.manage().window().setSize(new Dimension(2560,1440));
+		driver.manage().window().maximize();
 		
 //		ChromeOptions options = new ChromeOptions();
 //		 options.addArguments("window-size=1920,1080");
