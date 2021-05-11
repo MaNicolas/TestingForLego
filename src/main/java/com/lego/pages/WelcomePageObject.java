@@ -23,7 +23,7 @@ public class WelcomePageObject extends HeaderPageObject {
 		Reporter.log("Page opened!");
 	}
 	
-	public void openshop() {
+	public void openShop() {
 		click(continueButtonLocator, 5);
 		click(acceptCookieLocator, 5);
 		Reporter.log("Accepting cookies");

@@ -18,7 +18,7 @@ public class AutomationTest extends TestUtilities {
 		//Go to https://www.lego.com/es-es
 		WelcomePageObject welcomePage = new WelcomePageObject(driver);
 		welcomePage.openPage();
-		welcomePage.openshop();
+		welcomePage.openShop();
 		
 		//Filter by age (4+ years old)
 		ResultsPageObject resultsPage = welcomePage.filterByAge();
